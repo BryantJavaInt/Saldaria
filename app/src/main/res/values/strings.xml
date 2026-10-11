@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Saldaria</string>
+
+    <!-- Navigation -->
+    <string name="nav_simulator">Simulador</string>
+    <string name="nav_schedule">Cuadro</string>
+    <string name="title_schedule">Cuadro de amortización</string>
+    <string name="nav_compare">Comparar</string>
+
+    <!-- Inputs -->
+    <string name="input_principal">Capital (€)</string>
+    <string name="input_rate">TIN anual (%)</string>
+    <string name="input_years">Plazo (años)</string>
+    <string name="input_prepayment_month">Mes</string>
+    <string name="input_prepayment_amount">Importe (€)</string>
+
+    <!-- Actions -->
+    <string name="action_calculate">Calcular</string>
+
+    <!-- Options -->
+    <string name="option_reduce_term">Reducir plazo</string>
+    <string name="option_reduce_payment">Reducir cuota</string>
+
+    <!-- Results -->
+    <string name="result_monthly_payment">Tu cuota mensual</string>
+    <string name="result_label_principal">Capital</string>
+    <string name="result_label_interest">Intereses</string>
+    <string name="result_total_paid">Total pagado</string>
+    <string name="result_apr">TAE aproximada</string>
+    <string name="simulator_empty_state">Introduce los datos para calcular tu préstamo.</string>
+
+    <!-- Compare Results -->
+    <string name="compare_title_inputs">Amortización anticipada</string>
+    <string name="compare_empty_state">Introduce el mes y el importe para ver cuánto ahorras.</string>
+    <string name="result_interest_saved">Ahorro en intereses</string>
+    <string name="result_months_saved">Meses ahorrados</string>
+    <string name="compare_savings_title">Ahorras</string>
+    <string name="compare_savings_months">y %1$d meses</string>
+    <string name="compare_column_base">Sin amortizar</string>
+    <string name="compare_column_prepayment">Con amortización</string>
+    <string name="compare_stat_months">%1$d meses</string>
+    <string name="compare_chart_description">Gráfico comparativo del saldo pendiente. La línea gris muestra el saldo sin amortizar, y la verde el saldo cayendo más rápido gracias a la amortización anticipada.</string>
+
+    <!-- Schedule Table -->
+    <string name="table_header_month">Mes</string>
+    <string name="table_header_installment">Cuota</string>
+    <string name="table_header_interest">Interés</string>
+    <string name="table_header_principal">Capital</string>
+    <string name="table_header_balance">Saldo final</string>
+    <string name="table_row_prepayment">Amortización extra: %1$s</string>
+    <string name="schedule_chart_title">Cómo se reparte cada cuota</string>
+    <string name="schedule_chart_subtitle">Con el tiempo pagas menos interés y más capital.</string>
+    <string name="schedule_chart_legend_first_month">Mes 1</string>
+    <string name="schedule_chart_legend_last_month">Mes %1$d</string>
+    <string name="schedule_chart_legend_interest_amount">%1$s de interés</string>
+    <string name="schedule_chart_content_description">Gráfico que muestra la evolución de la cuota mensual. Al principio, el interés es mayor y el capital menor. Con el paso del tiempo, el capital aumenta y el interés disminuye.</string>
+    <string name="schedule_year_header">Año %1$d</string>
+
+    <string name="schedule_chart_label_interest">Intereses</string>
+    <string name="schedule_chart_label_capital">Capital</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_nav_simulator">Pestaña del simulador base</string>
+    <string name="cd_nav_schedule">Pestaña del cuadro de amortización</string>
+    <string name="cd_nav_compare">Pestaña de comparación de amortizaciones</string>
+
+    <!-- ECB API -->
+    <string name="ecb_rate_loading">Cargando tipo del BCE...</string>
+    <string name="ecb_rate_success">Tipo del BCE: %1$s</string>
+    <string name="ecb_rate_error">Error al cargar tipo BCE</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="ecb_action_retry">Reintentar</string>
+    <string name="ecb_action_use">Usar como TIN</string>
+
+    <!-- Errors -->
+    <string name="error_empty_schedule">Calcula primero un préstamo para ver el cuadro de amortización.</string>
+    <string name="error_empty_compare">Calcula primero un préstamo base en el Simulador.</string>
+    <string name="compare_prepayment_question">¿Cómo quieres aplicar la amortización?</string>
+    <string name="error_invalid_inputs">Por favor, introduce valores numéricos válidos.</string>
+    <string name="error_invalid_prepayment">Datos de amortización no válidos o fuera de plazo.</string>
+    <string name="error_domain_principal">El capital debe ser mayor que 0</string>
+    <string name="error_domain_rate">El tipo de interés no puede ser negativo</string>
+    <string name="error_domain_months">El plazo debe ser de al menos 1 mes</string>
+    <string name="error_domain_prepayment_month">El mes de la amortización debe ser 1 o mayor</string>
+    <string name="error_domain_prepayment_amount">El importe a amortizar debe ser mayor que 0</string>
+    <string name="error_domain_prepayment_too_late">La amortización anticipada debe ser antes del último mes del préstamo</string>
+
+</resources>
